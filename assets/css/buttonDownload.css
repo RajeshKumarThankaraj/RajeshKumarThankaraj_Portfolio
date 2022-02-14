@@ -1,0 +1,26 @@
+.buttonDownload {
+  background-color: #0563bb;
+  border: 0;
+  padding: 17px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: 20%;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  display: block;
+}
+
+.buttonDownload:hover {
+  background: #0678e3;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:540px){
+  .buttonDownload {
+    width: 50%;
+    font-size: 12px;
+  };
+}
